@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e9ecef; /* Light gray background */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40; /* Dark gray color */
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+  padding: 30px; /* Increased padding */
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+td {
+  padding: 15px; /* Increased padding for better spacing */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px; /* Increased padding */
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 5px; /* Slightly rounded corners */
+  box-sizing: border-box;
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #80bdff; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button Styles */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 12px 20px; /* Increased padding */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Checkbox and Radio Styles */
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Label Styles */
+label {
+  font-weight: bold;
+  color: #495057; /* Darker gray for labels */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  form {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
